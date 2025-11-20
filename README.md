@@ -5,7 +5,7 @@
 Live Demo 👉 **https://cyberdude-htmlcourselandingpage.vercel.app/**
 
 ---
-###ScrenShot
+### ScreenShot
 ![preview](./image.png)
 
 ## 🚀 **Project Overview**
