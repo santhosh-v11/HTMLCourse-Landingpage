@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(253, 164, 0);
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+nav > div >a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:426px) {
+
+    a{
+        display: none;
+    }
+    
+}
