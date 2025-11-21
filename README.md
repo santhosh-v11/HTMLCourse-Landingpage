@@ -8,6 +8,8 @@ Live Demo 👉 **https://cyberdude-htmlcourselandingpage.vercel.app/**
 ### ScreenShot
 ![preview](./image.png)
 
+### Figma Layout Design
+![preview](https://www.figma.com/design/D1oTgOp0VEqaVQzWWWB3Ub/HTML-course-LandingPage?node-id=0-1&t=mpqllU3jvFIlSXPd-1)
 ## 🚀 **Project Overview**
 
 This project is part of **Week 2 of my Internship at CyberDude Networks Pvt. Ltd.**  
