@@ -252,11 +252,24 @@ button>svg{
     box-shadow: #ffaa00;
     box-shadow: 0 0 15px #ffaa00;
 }
+footer{
+    height: auto;
+    background-color: black;
+}
 footer>p{
     color: #f2eee8;
-    background-color: black;
     text-align: center;
     padding: 20px 80px;
+}
+.icons{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.icons>a{
+    color: white;
+}
+.icons > a:hover{
+    box-shadow:0 0 15px #ffaa00;
 }
 footer::selection{
     background-color: #ffaa00;
@@ -456,5 +469,3 @@ footer::selection{
         gap: 40px;
     }
 }
-
-
