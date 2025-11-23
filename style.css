@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    animation:fadein 0.7s ease-out forwards;
 }
 *{
     margin: 0;
@@ -7,6 +8,17 @@ html{
     /* background-color:aliceblue;   */
     font-family:"Poppins", sans-serif;;
     /* box-sizing: border-box; */
+}
+
+@keyframes fadein{
+    0%{
+        opacity:0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 body{
     overflow-x: hidden;
@@ -17,12 +29,17 @@ body{
 }
 header{
     background: url(./assests/wave\ \(1\).svg);
-     /* background: linear-gradient(0deg, #ffd47e 9%, #ffaa00 100%); */
-    height: 80vh;
+    
+    height: 350px;
     background-size: contain;
-    background-position: bottom;
+    background-size: 100vw;
+     /* background: linear-gradient(0deg, #ffd47e 9%, #ffaa00 100%); */
+    /* height: 80vh; */
+    /* background-size: contain; */
     background-repeat: no-repeat;
     color: var(--span-color);
+    background-position-y: center;
+
     
 }
 nav {
@@ -91,6 +108,9 @@ img{
     background: transparent;
 }
 .section1{
+    background-color: #ffc34d;
+    /* background: linear-gradient(90deg, #ffc34d 90%, #f4c680 100%); */
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,9 +225,12 @@ img{
 
 .enroll{
     height: auto;
-    background-color: #ffc34d;
+
+    background-color: #ffe0b2;
+    
     text-align: center;
     padding: 20px 0px;
+    /* border-bottom: 5px solid whitesmoke; */
 }
 .enroll>a>button{
     margin: 10px ;
@@ -226,7 +249,9 @@ button>svg{
 }
 .newcourse{
     text-align: center;
-    background-color: #ffc34d;
+    background-color: #ffe0b2;
+    background: linear-gradient(180deg, #ffe0b2 10%, #f4c680 100%);
+
 
 }
 .names{
@@ -282,10 +307,6 @@ footer::selection{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    height: 350px;
-    background: url(./assests/wave\ \(1\).svg);
-    background-size: contain;
-    background-size: 100vw;
 }
 
     .image{
@@ -353,6 +374,8 @@ footer::selection{
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
+    background-position: bottom;
+
 
     }
     .content{
@@ -417,6 +440,8 @@ footer::selection{
         padding-left: 50px;
         padding-right: 50px;
         height: 320px;
+    background-position: bottom;
+
     }
     span{
         color: #ffaa00;
